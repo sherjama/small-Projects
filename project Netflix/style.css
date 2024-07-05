@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+/* background-banner */
+.back-banner {
+    background-size: cover;
+    opacity: 0.3;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 700px;
+}
+
+/* navigation-bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 955px;
+    height: 85px;
+}
+
+/* logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 148px;
+    height: 40px;
+    background-image: url(image/Netflix-logo.png);
+    background-size: cover;
+}
+
+/* nav-box-1 */
+.nav-lang {
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.76);
+    position: absolute;
+    right: 300px;
+    width: 122px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-lang p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin: 5px;
+}
+
+#select {
+    border: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* nav-box-2 */
+.nav-sign {
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    right: 200px;
+    width: 75px;
+    height: 32px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main-login-content */
+.hero {
+    width: 1004px;
+    height: 235px;
+    margin-top: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+#all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.email {
+
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.email-box {
+    border-radius: 6px;
+    width: 386px;
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.527);
+    border: 0.1px solid white;
+    padding: 24px;
+}
+
+.email-box:active {
+    border: 3px solid white;
+}
+
+.email-box:focus-visible {
+    outline: none;
+}
+
+::placeholder {
+    color: gainsboro;
+    font-size: 17px;
+    padding: 10px;
+}
+
+#btn {
+    width: 191px;
+    height: 56px;
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    font-stretch: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+/* containt-boxex */
+.container {
+    width: 100%;
+    height: 502px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tv-text {
+    width: 957px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    width: 478px;
+    height: 198px;
+
+}
+
+.text p {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.text h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+.tv {
+    width: 473px;
+    height: 354px;
+    background-image: url(image/tv.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-video {
+    width: 79%;
+    position: relative;
+    z-index: -1;
+}
+
+/* containt-box-2 */
+
+
+.tv-text-2 {
+    width: 957px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile {
+    width: 470px;
+    height: 354px;
+    background-image: url(image/mobile-0819.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.download {
+    position: relative;
+    left: -77px;
+    top: 156px;
+}
+
+.text-2 {
+    width: 470px;
+    height: 180px;
+}
+
+.text-2 p {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.text-2 h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+/* containt-box-3 */
+
+.tv-text-3 {
+    width: 957px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tv-2 {
+    width: 473px;
+    height: 354px;
+    background-image: url(image/device-pile-in.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-video-2 {
+    width: 65%;
+    position: relative;
+    z-index: -1;
+    top: -61px;
+}
+
+.child-banner {
+    width: 470px;
+    height: 354px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-5 {
+    height: 860px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.questions-email {
+    height: 783px;
+    width: 957px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.questions-email h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.question-btn {
+    width: 100%;
+    height: 84px;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    border: none;
+    margin: 5px 0 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question-btn span {
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.question-btn:hover {
+    background-color: rgb(104, 102, 102);
+    transition: 0.5s;
+}
+
+#plus {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-a {
+    margin-top: 20px;
+    color: darkgray;
+}
+
+.footer-content {
+    width: 956px;
+    height: 463px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-content p {
+    font-size: 16px;
+    font-family: 400;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    color: darkgray;
+
+}
+
+.footer-links {
+    display: flex;
+
+}
+
+.linkbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkbox a {
+    margin: 10px;
+    color: darkgray;
+}
+
+.linkbox-marg {
+    margin-left: 50px;
+}
+
+.nav-lang-2 {
+    margin-top: 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.76);
+    width: 122px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-lang-2 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin: 5px;
+}
+
+#select-2 {
+    border: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}

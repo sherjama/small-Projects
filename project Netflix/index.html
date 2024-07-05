@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Netflix project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- header and background -->
+    <img src="image/banner.jpg" alt="" class="back-banner" />
+    <header
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      "
+    >
+      <!-- navigation bar -->
+      <div class="navbar">
+        <!-- logo -->
+        <div class="logo"></div>
+        <!-- nav-box-1 -->
+        <div class="nav-lang">
+          <i class="fa-solid fa-earth-asia"></i>
+          <p>English</p>
+          <select id="select"></select>
+        </div>
+        <!-- nav-box-2 -->
+        <div class="nav-sign">Sign in</div>
+      </div>
+      <!-- main-login-content -->
+      <div class="hero">
+        <h1>Unlimited movies, TV shows and more</h1>
+        <p>Watch anywhere. Cancel anytime.</p>
+        <div class="email">
+          <p
+            style="
+              color: white;
+              text-align: center;
+              margin-top: 20px;
+              font-size: 20px;
+            "
+          >
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div id="all">
+            <input type="email" class="email-box" placeholder="Email address" />
+            <button id="btn">Get Started ></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <hr
+      style="
+        height: 0.5rem;
+        background-color: rgb(35, 35, 35);
+        margin-top: 175px;
+        border: none;
+      "
+    />
+    <!-- content-box-1 -->
+    <div class="container-1 container">
+      <div class="tv-text">
+        <div class="text">
+          <h2>Enjoy on your TV</h2>
+          <p>
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+            players and more.
+          </p>
+        </div>
+        <div class="tv">
+          <video
+            class="back-video"
+            src="image/back-video.mp4"
+            autoplay
+            loop
+            muted
+          ></video>
+        </div>
+      </div>
+    </div>
+    <hr
+      style="height: 0.5rem; background-color: rgb(35, 35, 35); border: none"
+    />
+    <!-- content-box-2 -->
+    <div class="container-2 container">
+      <div class="tv-text-2">
+        <div class="mobile-download mobile">
+          <div class="download">
+            <img src="image/download.png" alt="" />
+          </div>
+        </div>
+        <div class="text-2">
+          <h2>Download your shows to watch offline</h2>
+          <p>Save your favourites easily and always have something to watch.</p>
+        </div>
+      </div>
+    </div>
+    <hr
+      style="height: 0.5rem; background-color: rgb(35, 35, 35); border: none"
+    />
+    <!-- content-box-3 -->
+    <div class="container-3 container">
+      <div class="tv-text-3">
+        <div class="text">
+          <h2>Watch everywhere</h2>
+          <p>
+            Stream unlimited movies and TV shows on your phone, tablet, laptop,
+            and TV.
+          </p>
+        </div>
+        <div class="tv-2">
+          <video
+            class="back-video-2"
+            src="image/back-video-2.mp4"
+            autoplay
+            loop
+            muted
+          ></video>
+        </div>
+      </div>
+    </div>
+    <hr
+      style="height: 0.5rem; background-color: rgb(35, 35, 35); border: none"
+    />
+    <!-- content-box-4 -->
+    <div class="container-4 container">
+      <div class="tv-text-2">
+        <div class="child-banner">
+          <img
+            src="image/childrenbanner.png"
+            alt=""
+            style="width: 473px; height: 354px"
+          />
+        </div>
+        <div class="text">
+          <h2>Create profiles for kids</h2>
+          <p>
+            Send children on adventures with their favourite characters in a
+            space made just for them—free with your membership.
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr
+      style="height: 0.5rem; background-color: rgb(35, 35, 35); border: none"
+    />
+    <!-- content-box-5 -->
+    <div class="container-5">
+      <div class="questions-email">
+        <h2>Frequently Asked Questions</h2>
+        <button class="question-btn">
+          <span class="question-txt"> What is Netflix? </span
+          ><i class="fa-solid fa-plus" id="plus"></i>
+        </button>
+        <button class="question-btn">
+          <span class="question-txt"> How much does Netflix cost </span
+          ><i class="fa-solid fa-plus" id="plus"></i>
+        </button>
+        <button class="question-btn">
+          <span class="question-txt"> Where can I watch? </span
+          ><i class="fa-solid fa-plus" id="plus"></i>
+        </button>
+        <button class="question-btn">
+          <span class="question-txt"> How do I cancel </span
+          ><i class="fa-solid fa-plus" id="plus"></i>
+        </button>
+        <button class="question-btn">
+          <span class="question-txt"> What can I Watch on Netflix </span
+          ><i class="fa-solid fa-plus" id="plus"></i>
+        </button>
+        <button class="question-btn">
+          <span class="question-txt"> Is Netflix good for kids? </span
+          ><i class="fa-solid fa-plus" id="plus"></i>
+        </button>
+
+        <div class="email">
+          <p
+            style="
+              color: white;
+              text-align: center;
+              margin-top: 20px;
+              font-size: 20px;
+            "
+          >
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div id="all">
+            <input type="email" class="email-box" placeholder="Email address" />
+            <button id="btn">Get Started ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr
+      style="height: 0.5rem; background-color: rgb(35, 35, 35); border: none"
+    />
+    <!-- content-box-6 -->
+    <footer>
+      <div class="footer-content">
+        <p>Questions? Call 000-800-919-1694</p>
+        <div class="footer-links">
+          <div class="linkbox">
+            <a href="#">FAQ</a>
+            <a href="#">Help Centre</a>
+            <a href="#">Account</a>
+            <a href="#">Media Centre</a>
+            <a href="#">Investor Relations</a>
+          </div>
+          <div class="linkbox linkbox-marg">
+            <a href="#">Jobs</a>
+            <a href="#">Ways to Watch</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy</a>
+            <a href="#">Cookie Preferences</a>
+          </div>
+          <div class="linkbox linkbox-marg">
+            <a href="#">Corporate Information</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Speed Test</a>
+            <a href="#">Legal Notices</a>
+            <a href="#">Only on Netflix</a>
+          </div>
+        </div>
+        <div class="nav-lang-2">
+          <i class="fa-solid fa-earth-asia"></i>
+          <p>English</p>
+          <select id="select-2"></select>
+        </div>
+        <div class="footer-a">Netflix India</div>
+      </div>
+    </footer>
+  </body>
+</html>
