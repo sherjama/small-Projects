@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--------locomotive css-------- -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <!--------font-awsome css-------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--------slider css-------- -->
+    <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet">
+    <!--------Sheryjs css-------- -->
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <!--------main css files-------- -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>cuberto clone</title>
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div data-scroll-container id="scroll-container">
+            <!-- ---------fixed Menu-------------- -->
+            <div class="fixed" data-scroll data-scroll-sticky data-scroll-target="#scroll-container">
+                <!-- // Fixed content -->
+                <div class="video-cursor">
+                    <p>Explore</p>
+                </div>
+                <img class="menu-icon-animat" src="media/menu-icon.png">
+            </div>
+            <!-- ------------------------------------ -->
+            <header>
+                <nav>
+                    <svg class="logo" version="1.1" id="layer" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 652 652"
+                        style="enable-background:new 0 0 652 652;" xml:space="preserve">
+                        <path
+                            d="M70.9,366.9c-14.2-0.5-25.3-12.5-24.8-26.7C45.5,326,56.7,314,70.9,313.5c8.9,0.1,17,5.1,21.2,12.9l16.4-10.8
+	c-7.6-13.7-21.8-22.4-37.5-22.6c-25.1,1.1-44.8,22.1-44.1,47.3c-0.8,25.2,18.9,46.3,44.1,47.4c15.3-0.2,29.3-8.4,37-21.6l-16.1-11.2
+	C87.4,362.2,79.5,366.8,70.9,366.9L70.9,366.9z M179.3,348.9c-0.1,10-8.3,18.1-18.3,18h-1.9c-10,0.1-18.2-8-18.3-18v-54.2h-21.8v55
+	c0.2,21.2,17.6,38.1,38.7,37.9h4.7c21.2,0.3,38.5-16.7,38.7-37.9v-54.9h-21.8L179.3,348.9L179.3,348.9z M431.7,294.8H412v90.3h19.7
+	V344c0-21.4,12.9-29.8,29-29.8v-19.4c-10.3-0.1-20.4,2.8-29,8.4V294.8z M537.3,381.9c-6.2,3.5-13.1,5.3-20.2,5.3
+	c-25-1.1-44.6-22-44.1-47.1v-77.4h19.4v32.3h33.8v19.4h-33.5v25.8c-0.3,13.9,10.5,25.6,24.4,26.4c3.3,0,6.5-0.7,9.5-2L537.3,381.9z
+	 M582.5,292.4c-25.3,0.9-45.1,22.2-44.3,47.4c-2,25.8,18.4,47.8,44.3,47.8c25.8,0,46.2-22,44.3-47.8c0.8-25.2-18.8-46.4-44-47.4
+	H582.5z M582.5,366.6c-14.3-0.4-25.5-12.4-25-26.7c-0.7-14.2,10.7-26.2,24.9-26.2c14.3,0,25.7,12,24.9,26.2
+	c0.5,14.2-10.5,26.1-24.6,26.7H582.5z M259.1,292.4c-8.8,0-17.4,2.8-24.6,8v-37.6h-19.7v77.4c-0.8,25.3,19,46.5,44.3,47.4
+	c25.3-0.9,45.2-22.1,44.3-47.4C304.4,314.8,284.5,293.3,259.1,292.4L259.1,292.4z M259.1,366.6c-14.3-0.4-25.5-12.4-25-26.7
+	c-0.7-14.2,10.7-26.2,24.9-26.2c14.3,0,25.7,12,24.9,26.2C284.5,354.1,273.3,366.1,259.1,366.6L259.1,366.6z M400.4,347.9
+	c0.4-2.7,0.6-5.3,0.6-8c0-2.7-0.2-5.5-0.6-8.2c-2.9-22.1-21.4-38.8-43.6-39.4c-25.3,0.9-45.1,22.1-44.3,47.4
+	c-0.8,25.3,19,46.5,44.3,47.4c15.2-0.2,29.2-8.3,37-21.4l-16.1-11.4c-4.4,7.4-12.3,11.9-20.8,12c-11.2-0.3-20.9-7.9-23.8-18.7
+	L400.4,347.9z M356.8,313.1c11.2,0.2,20.8,7.8,23.8,18.6h-47.2C336.3,321,345.8,313.4,356.8,313.1L356.8,313.1z M356.8,313.1" />
+                    </svg>
+
+                    <div class="menu">
+                        <p>menu</p>
+                    </div>
+                </nav>
+            </header>
+            <!-- ------------------------------------ -->
+            <main>
+                <!-- first sectin -->
+                <section class="hero">
+                    <div class="content-hero headings">
+                        <div class="wrapper-an">
+                            <h1>We</h1>
+                            <h1 class="it-lgt">develop</h1>
+                        </div><br>
+                        <div class="wrapper-an">
+                            <span class="vid-1 animate-vid">
+                                <video src="media/main-video.mp4" autoplay loop muted></video>
+                            </span>
+                            <h1>digital</h1>
+                            <h1>products</h1><br>
+                            <h1>from</h1>
+                            <h1>scratch</h1>
+                        </div>
+                    </div>
+                </section>
+                <!-- second section -->
+                <section class="main-video">
+                    <video src="media/main-video.mp4" autoplay loop muted></video>
+                </section>
+
+                <!-- third section -->
+                <section class="third-section">
+                    <div class="container-third">
+                        <div class="video-third">
+                            <video src="media/moving-C.mp4" autoplay loop muted></video>
+                        </div>
+                        <div class="content-third">
+                            <p>Cuberto is a leading digital product agency focused on branding, UI/UX design, mobile,
+                                and
+                                web
+                                development.</p>
+                            <button class="btn-an">How we work</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- forth section -->
+                <div class="white-wrapper">
+                    <section class="forth-section">
+                        <div class="content-forth headings animet_heading">
+                            <h1>Featured</h1><br>
+                            <div class="container-doll-text">
+                                <span class="doll-vid vid-1">
+                                    <video src="media/doll.mp4" autoplay loop muted="true"></video>
+                                </span>
+                                <h1>projects</h1>
+                            </div>
+                        </div>
+                        <div class="covers-forth">
+
+                            <div class="covers-left">
+
+                                <div class="cover-container A">
+                                    <div class="big-cvr cover">
+                                        <video src="media/cover.mp4" loop muted="muted"></video>
+                                    </div>
+                                    <p>Punto Pago</p>
+                                </div>
+
+                                <div class="cover-container B">
+                                    <div class="small-cvr cover">
+                                        <video src="media/cover-2.mp4" loop muted="muted"></video>
+                                    </div>
+                                    <p>Riyadh</p>
+                                </div>
+
+                                <div class="cover-container C">
+                                    <div class="big-cvr cover">
+                                        <video src="media/cover-3.mp4" loop muted="muted"></video>
+                                    </div>
+                                    <p>Qvino</p>
+                                </div>
+
+                                <div class="cover-container D">
+                                    <div class="small-cvr cover">
+                                        <video src="media/cover-4.mp4" loop muted="muted"></video>
+                                    </div>
+                                    <p>Potion</p>
+                                </div>
+                                <div class="cover-container E">
+                                    <div class="small-cvr cover">
+                                        <video src="media/cover-5.mp4" loop muted="muted"></video>
+                                    </div>
+                                    <p>Ferrumpipe</p>
+                                </div>
+                            </div>
+                            <div class="covers-right">
+                                <div class="cover-container F">
+                                    <div class="small-cvr cover">
+                                        <video src="media/cover-6.mp4" loop muted="muted"></video>
+                                    </div>
+                                    <p>Flipaclip</p>
+                                </div>
+                                <div class="cover-container G">
+                                    <div class="big-cvr cover">
+                                        <video src="media/cover-7.mp4" loop muted="muted"></video>
+                                    </div>
+                                    <p>Zelt</p>
+                                </div>
+                                <div class="cover-container H">
+                                    <div class="small-cvr cover">
+                                        <video src="media/cover-8.mp4" loop muted="muted"></video>
+                                    </div>
+                                    <p>Cisco</p>
+                                </div>
+                                <div class="cover-container I">
+                                    <div class="big-cvr cover">
+                                        <video src="media/cover-9.mp4" loop muted="muted"></video>
+                                    </div>
+                                    <p>Magma</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- fifth-section -->
+                <section class="fifth-section">
+                    <div class="bg-light">
+                        <div class="content-fifth headings">
+                            <h1>Our</h1><br>
+                            <h1>Philosophy</h1>
+                            <div class="container-third fifth-content-container">
+                                <div class="video-third fifth-video-container">
+                                    <video class="video-fifth" src="media/moving-Bubls.mp4" autoplay loop muted></video>
+                                </div>
+                                <div class="fifth-para">
+                                    <p class="spans_animat"><span> In our team,developers work
+                                            alongside
+                                            designers,
+                                            strategists
+                                            and</span>
+                                        <span> analysts.
+                                            Cuberto
+                                            doesn't
+                                            do
+                                            cookie-cutter
+                                            solutions
+                                            and
+                                            we
+                                            build</span>
+                                        <span> products
+                                            exactly
+                                            as
+                                            they
+                                            were
+                                            during
+                                            the
+                                            design
+                                            phase,
+                                            no
+                                            short</span>
+                                        <span> cuts
+                                            or
+                                            simplifications.</span> <br>
+                                        <br>
+                                        <span> We're
+                                            driven
+                                            by
+                                            user &dash; bcentered
+                                            design
+                                            that
+                                            drives
+                                            productivity</span>
+                                        <span> and
+                                            increases
+                                            revenue.
+                                            Our
+                                            expertise
+                                            and
+                                            ingenuity
+                                            are</span>
+                                        <span> remarkable,
+                                            yet
+                                            we
+                                            always
+                                            strive
+                                            to
+                                            outdo
+                                            and
+                                            outperform
+                                            our </span>
+                                        <span> previous
+                                            achievements. </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+
+                <!-- sixth-section -->
+                <section class="sixth-section">
+                    <div class="bg-dark">
+                        <div class="content-sixth headings">
+                            <h1>Development</h1>
+                            <br>
+                            <h1>and design</h1>
+                            <br>
+                            <h1>resources</h1>
+                        </div>
+                        <!-- swiper -->
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                            </div>
+
+                            <div class="pagination"></div>
+
+                            <div class="prev">
+                                <svg width="10" height="15" viewBox="0 0 10 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.2625 13.2375L3.5375 7.5L9.2625 1.7625L7.5 0L0 7.5L7.5 15L9.2625 13.2375Z"
+                                        fill="#A99260" />
+                                </svg>
+
+                            </div>
+                            <div class="next">
+                                <svg width="10" height="15" viewBox="0 0 10 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.737305 13.2375L6.4623 7.5L0.737305 1.7625L2.4998 0L9.9998 7.5L2.4998 15L0.737305 13.2375Z"
+                                        fill="#A99260" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="content-sixth-2 content-third">
+                            <p>We
+                                regularly
+                                release
+                                design
+                                courses,
+                                offer
+                                advice
+                                to
+                                newbie
+                                designers,
+                                walk
+                                you
+                                through
+                                creating
+                                awesome
+                                effects,
+                                and
+                                share
+                                source
+                                files.</p>
+                            <button>View all resources</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- footer-section -->
+                <div class="questions-email">
+                    <button class="question-btn">
+                        <div class="q-wrapper">
+                            <span class="question-txt">instagram</span>
+                            <i class="fa-solid fa-plus" id="plus"></i>
+                        </div>
+                    </button>
+                    <button class="question-btn">
+                        <div class="q-wrapper">
+                            <span class="question-txt">linkdin</span>
+                            <i class="fa-solid fa-plus" id="plus"></i>
+                        </div>
+                    </button>
+                    <button class="question-btn">
+                        <div class="q-wrapper">
+                            <span class="question-txt">dribble</span>
+                            <i class="fa-solid fa-plus" id="plus"></i>
+                        </div>
+                    </button>
+                    <button class="question-btn">
+                        <div class="q-wrapper">
+                            <span class="question-txt">youtube</span>
+                            <i class="fa-solid fa-plus" id="plus"></i>
+                        </div>
+                    </button>
+                    <button class="question-btn">
+                        <div class="q-wrapper">
+                            <span class="question-txt">github</span>
+                            <i class="fa-solid fa-plus" id="plus"></i>
+                        </div>
+                    </button>
+                    <button class="question-btn">
+                        <div class="q-wrapper">
+                            <span class="question-txt">bihance</span>
+                            <i class="fa-solid fa-plus" id="plus"></i>
+                        </div>
+                    </button>
+                    <button class="question-btn">
+                        <div class="q-wrapper">
+                            <span class="question-txt">twiter</span>
+                            <i class="fa-solid fa-plus" id="plus"></i>
+                        </div>
+                    </button>
+                </div>
+            </main>
+            <!-- ------------------------------------ -->
+            <footer>
+
+                <div class="seventh-section footer-video">
+                    <div class="vdeo-contianer">
+                        <video src="media/footer.mp4" autoplay loop muted></video>
+                    </div>
+                    <div class="container-fvidcontaint">
+                        <h1>Have</h1>
+                        <h1>an idea ?</h1>
+                        <button class="f-btn-animate">Tell us</button>
+                    </div>
+                    <div class="fbottom">
+                        <div class="btns">
+                            <button>info@cuberto.com</button>
+                            <button>+1 301 549 9309</button>
+                        </div>
+                        <p class="btns-p">PRIVECY POLICY</p>
+                    </div>
+                </div>
+
+            </footer>
+
+        </div>
+    </div>
+    <!-- script files  -->
+
+    <!-- 1: gsap cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- ------------------------------------ -->
+    <!-- 2: gsap ScrollTrigger cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+        integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- ------------------------------------ -->
+    <!-- 3:  Locomotve smoothScroll cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+    <!-- ------------------------------------ -->
+    <!-- 4:  swiper cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.6/swiper-bundle.min.js"></script>
+
+    <!-- ------------------------------------ -->
+    <!-- 5:  sheryJS cdn -->
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+
+    <!-- ------------------------------------ -->
+    <!-- 6: mainJs files cdn -->
+    <script src="script.js"></script>
+    <script src="animations.js"></script>
+</body>
+
+</html>

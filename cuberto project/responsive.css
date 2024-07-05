@@ -1,0 +1,123 @@
+@media only screen and (max-width: 300px) {
+
+    .content-hero,
+    .headings {
+        min-height: 313px;
+        padding: 5vw 0 0 6vw;
+    }
+
+    .vid-1 {
+        width: 27vw;
+        height: 17vw;
+    }
+
+    .content-hero h1,
+    .headings h1 {
+        font-size: 70px;
+    }
+
+    .menu p {
+        display: none;
+    }
+
+    .fixed img {
+        transform: translate(80vw, 10.6vw);
+    }
+
+    .logo {
+        left: -23px;
+        position: relative;
+    }
+
+    .content-third {
+        /* width: 32vw; */
+        margin-left: 0vw;
+        /* font-size: 2vw; */
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* justify-content: space-between; */
+    }
+
+    .video-third video {
+        height: 85vw;
+    }
+
+
+    .container-third button {
+        padding: 35px;
+        width: 93vw;
+        font-size: 17px;
+        margin-top: 9vw;
+    }
+
+    .content-hero,
+    .headings {
+        min-height: 1px;
+    }
+
+    .content-forth h1:nth-child(1) {
+        line-height: 69px;
+        letter-spacing: 2px;
+    }
+
+    .vid-1 {
+        width: 23vw;
+        height: 15vw;
+    }
+
+    .content-forth h1:nth-child(2) {
+        font-size: 12vw;
+    }
+
+    .covers-forth {
+        padding: 0;
+        display: flex;
+        width: 100%;
+        justify-content: none;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 11vw;
+    }
+
+    .covers-right,
+    .covers-left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .small-cvr,
+    .big-cvr {
+        width: 95vw;
+        height: auto;
+    }
+
+    .covers-right {
+        margin-top: auto;
+        margin-right: auto;
+    }
+
+    .cover-container p {
+        margin-top: 1.9vw;
+        margin-bottom: 17vw;
+        font-size: 4.5vw;
+    }
+
+    .bg-dark,
+    .bg-light {
+        border-radius: 0;
+    }
+
+    .content-fifth h1 {
+        font-size: none;
+    }
+
+    .content-fifth h1:nth-child(3) {
+        font-style: italic;
+        font-weight: 1;
+        letter-spacing: 0vw;
+    }
+}
